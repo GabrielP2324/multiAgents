@@ -1,0 +1,51 @@
+C:\Users\neilp\Desktop\ESPM\Deep learning\multiAgents>C:/Python312/python.exe "c:/Users/neilp/Desktop/ESPM/Deep learning/multiAgents/orquestrador_simples.py"
+config.json: 100%|██████████████████| 1.58k/1.58k [00:00<00:00, 1.86MB/s]
+C:\Python312\Lib\site-packages\huggingface_hub\file_download.py:144: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\neilp\.cache\huggingface\hub\models--facebook--bart-large-cnn. Caching files will still work but in a degraded version that might require more 
+space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+model.safetensors: 100%|████████████| 1.63G/1.63G [00:44<00:00, 36.7MB/s]
+generation_config.json: 100%|████████████| 363/363 [00:00<00:00, 360kB/s]
+vocab.json: 100%|█████████████████████| 899k/899k [00:00<00:00, 2.54MB/s]
+merges.txt: 100%|█████████████████████| 456k/456k [00:00<00:00, 1.99MB/s]
+tokenizer.json: 100%|███████████████| 1.36M/1.36M [00:00<00:00, 3.98MB/s]
+Device set to use cpu
+config.json: 100%|██████████████████████████████| 862/862 [00:00<?, ?B/s]
+C:\Python312\Lib\site-packages\huggingface_hub\file_download.py:144: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\neilp\.cache\huggingface\hub\models--pierreguillou--bert-base-cased-squad-v1.1-portuguese. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. 
+For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+pytorch_model.bin: 100%|██████████████| 433M/433M [00:11<00:00, 36.3MB/s]
+tokenizer_config.json: 100%|████████████████████| 494/494 [00:00<?, ?B/s]
+vocab.txt: 100%|██████████████████████| 210k/210k [00:00<00:00, 1.89MB/s]
+special_tokens_map.json: 100%|██████████████████| 112/112 [00:00<?, ?B/s] 
+model.safetensors:  73%|██████████▏   | 315M/433M [00:08<00:03, 36.5MB/s]Device set to use cpu
+
+================================================================================
+[Usuário]: Por que o personagem Simão Bacamarte decide internar a esposa no hospício?
+model.safetensors:  75%|██████████▌   | 325M/433M [00:08<00:02, 37.2MB/s][AgenteA - ContextRetriever]: Contexto recuperado com 328067 caracteres    
+model.safetensors: 100%|██████████████| 433M/433M [00:11<00:00, 37.0MB/s]
+[AgenteD - Summarizer]: 219 resumo(s) gerado(s)
+[Resumo passado ao Agente B]: O AlIENISTA --THEORIA DO MEDALHÃ -- is a th
+eory of medicine. O ALIEN ISTA--THEORia DO MEDALS -- is the theory of medical theory. Theorias da meia noite -- a mÃ£o e a luva -- are the history of the night. O encyclopedista Diderot escrevia contos, e alguns deliciosos, mas atÃ© aconselhava um amigo th...
+[AgenteB - AnswerGenerator]: ‘lágrima’
+[AgenteC - AnswerEvaluator]: Resposta curta demais. Reavalie.
+
+================================================================================
+[Usuário]: Quem era Simão Bacamarte?
+[AgenteA - ContextRetriever]: Contexto recuperado com 328067 caracteres
+[AgenteD - Summarizer]: 219 resumo(s) gerado(s)
+[Resumo passado ao Agente B]: O AlIENISTA --THEORIA DO MEDALHÃ -- is a th
+eory of medicine. O ALIEN ISTA--THEORia DO MEDALS -- is the theory of medical theory. Theorias da meia noite -- a mÃ£o e a luva -- are the history of the night. O encyclopedista Diderot escrevia contos, e alguns deliciosos, mas atÃ© aconselhava um amigo th...
+[AgenteB - AnswerGenerator]: grandeHomem austero
+[AgenteC - AnswerEvaluator]: Resposta curta demais. Reavalie.
+
+================================================================================
+[Usuário]: Qual o objetivo do hospício fundado por Bacamarte?
+[AgenteA - ContextRetriever]: Contexto recuperado com 328067 caracteres
+[AgenteD - Summarizer]: 219 resumo(s) gerado(s)
+[Resumo passado ao Agente B]: O AlIENISTA --THEORIA DO MEDALHÃ -- is a th
+eory of medicine. O ALIEN ISTA--THEORia DO MEDALS -- is the theory of medical theory. Theorias da meia noite -- a mÃ£o e a luva -- are the history of the night. O encyclopedista Diderot escrevia contos, e alguns deliciosos, mas atÃ© aconselhava um amigo th...
+[AgenteB - AnswerGenerator]: fazer inchar os narizes
+[AgenteC - AnswerEvaluator]: Resposta satisfatória.
